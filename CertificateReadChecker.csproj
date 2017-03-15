@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="icon\certificate_icon.jpg" />
     <Content Include="Web.config" />
     <Content Include="validateCertificateRead.aspx" />
   </ItemGroup>
