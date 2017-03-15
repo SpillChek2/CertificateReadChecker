@@ -70,9 +70,6 @@ namespace ReadUploadedCertificate
                     
                     lblCertificateSettingValue.ForeColor = System.Drawing.Color.Red;
                     lblCertificateSettingValue.Text = "WEBSITE_LOAD_CERTIFICATES, App Setting not found.";
-                    //lblMessage.BorderColor = System.Drawing.Color.Red;
-
-                 
                     lblMessage.ForeColor = System.Drawing.Color.Red;
                     lblMessage.Text = " <br> Required App Setting not found. <br>Refer Prerequisites secton.";
                 }
@@ -119,9 +116,8 @@ namespace ReadUploadedCertificate
         }
 
 
-        //Chnage the rolw color only if 
-        // Is Exportable is FALSE
-        //Has Private Key is FALSE
+        // Change the rolw color only if Is Exportable is FALSE
+        // or Has Private Key is FALSE
 
         protected void grdCertificateDetails_RowDataBound(object sender, System.Web.UI.WebControls.GridViewRowEventArgs e)
         {
